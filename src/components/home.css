@@ -1,0 +1,22 @@
+.first{
+    
+    padding: 80px;
+    
+}
+.second{
+    max-width:1400px;
+}
+.h1{
+    text-align: justify;
+   
+    font-weight: bold;
+}
+.logo{
+    width: 500px%;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .logo{
+      height: auto;
+      width: 100%;
+    }
+  }
