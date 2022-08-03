@@ -7,8 +7,7 @@ import img1 from '../images/c.png';
 import img2 from '../images/java.png';
 import img3 from '../images/python.jpg';
 import img4 from '../images/js.png';
-
-
+import img5 from '../images/c++.png';
 
 
 const Home = () => {
@@ -51,16 +50,11 @@ const Home = () => {
           text="JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web. JavaScript is easy to learn."
           />
     <Card
-          img={img2}
+          img={img5}
           title="java Language"
-          text="Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS."
+          text="Jav erating systems (OS), including Windows, Linux and Mac OS."
     />
-    <Card
-          img={img3}
-          title="python Language"
-          text="Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."
     
-    />
     </div>
     
     
