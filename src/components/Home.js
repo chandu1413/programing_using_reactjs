@@ -2,7 +2,13 @@ import React from 'react';
 import "./home.css";
 import plogo from '../programming-logo.webp'
 import Card from './Card.jsx';
-import Cdata from "./Cdata";
+
+import img1 from '../images/c.png';
+import img2 from '../images/java.png';
+import img3 from '../images/python.jpg';
+import img4 from '../images/js.png';
+
+
 
 
 const Home = () => {
@@ -21,24 +27,40 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <div>
+    <div className='card-group'>
+    <Card img={img1}
+          title="c Language"
+          text="C is a general-purpose programming language, developed in 1972, and still quite popular. C is very powerful; it has been used   to develop operating systems, databases, applications, etc."
+          />
     <Card
-     imgsrc={Cdata[0].imgscr}
-     
-    title={Cdata[0].title}
-    para={Cdata[0].para}
-    link={Cdata[0].link}
-  />
-  <Card
-     imgsrc={Cdata[0].imgsrc}
-    title={Cdata[0].title}
-    para={Cdata[0].para}
-  />
-  <Card
-     imgsrc={Cdata[0].imgsrc}
-    title={Cdata[0].title}
-    para={Cdata[0].para}
-  />
+          img={img2}
+          title="java Language"
+          text="Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS."
+    />
+    <Card
+          img={img3}
+          title="python Language"
+          text="Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."
+    
+    />
+    </div>
+
+    <div className='card-group'>
+    <Card img={img4}
+          title="Java script"
+          text="JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web. JavaScript is easy to learn."
+          />
+    <Card
+          img={img2}
+          title="java Language"
+          text="Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS."
+    />
+    <Card
+          img={img3}
+          title="python Language"
+          text="Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."
+    
+    />
     </div>
     
     
