@@ -1,8 +1,8 @@
 import React from 'react';
 import "./home.css";
-
-import Card from './card.js';
 import plogo from '../programming-logo.webp'
+import Card from './Card.jsx';
+import Cdata from "./Cdata";
 
 
 const Home = () => {
@@ -17,11 +17,29 @@ const Home = () => {
       <br/>
       <div className="col-md-6 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
         <br/>
-       <img className='logo' src={plogo}/>
+       <img className='logo'alt="programming logo" src={plogo}/>
       </div>
       </div>
     </div>
-    <Card/>
+    <div>
+    <Card
+     imgsrc={Cdata[0].imgscr}
+     
+    title={Cdata[0].title}
+    para={Cdata[0].para}
+    link={Cdata[0].link}
+  />
+  <Card
+     imgsrc={Cdata[0].imgsrc}
+    title={Cdata[0].title}
+    para={Cdata[0].para}
+  />
+  <Card
+     imgsrc={Cdata[0].imgsrc}
+    title={Cdata[0].title}
+    para={Cdata[0].para}
+  />
+    </div>
     
     
     </>
