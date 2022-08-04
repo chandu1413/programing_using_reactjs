@@ -1,5 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
+
+
 const Nav = () => {
   return (
     <nav className='navbar navbar-expand-lg bg-light'>
@@ -16,17 +19,17 @@ const Nav = () => {
         <li>
          <Link className='nav-link text-info' to='/About'>AboutUs</Link> 
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle text-info" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+
+        <li className="nav-item  dropdown" >
+    <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="/" role="button" aria-expanded="false">Dropdown</Link>
+    <ul className="dropdown-menu">
+      <li><Link className="dropdown-item" to="/C">Action</Link></li>
+      <li><Link className="dropdown-item" to="/">Another action</Link></li>
+      <li><Link className="dropdown-item" to="/">Something else here</Link></li>
+      <li><hr className="dropdown-divider"/></li>
+      <li><Link className="dropdown-item" to="/">Separated link</Link></li>
+    </ul>
+  </li>
     </ul>
     </div>
   </div>
