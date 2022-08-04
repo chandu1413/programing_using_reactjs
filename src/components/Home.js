@@ -13,6 +13,7 @@ import img5 from '../images/c++.png';
 
 const Home = () => {
   return (<>
+ 
     <div className='first bg-secondary'>
       <div className='row'>
       <div className="col-lg-6 col-sm-12 col-md-6 col-xl-6">
