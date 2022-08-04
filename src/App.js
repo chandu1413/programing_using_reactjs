@@ -3,6 +3,7 @@ import "./App.css"
 import About from "./components/About";
 import Home from "./components/Home";
 import Nav from "./components/NavbarComp";
+import Footer from "./components/Footer";
 import C from "./lang_components/C.js";
 import Cpp from "./lang_components/cpp.js";
 import Java from "./lang_components/java.js";
@@ -28,7 +29,7 @@ export default function App() {
         
         
       </Routes>
-    
+    <Footer/>
     </BrowserRouter>
       
   );

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 
 
+
 const Nav = () => {
   return (
     <nav className='navbar navbar-expand-lg bg-light'>
@@ -21,7 +22,7 @@ const Nav = () => {
         </li>
 
         <li className="nav-item  dropdown" >
-    <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="/" role="button" aria-expanded="false">Dropdown</Link>
+    <Link className="nav-link dropdown-toggle text-info" data-bs-toggle="dropdown" to="/" role="button" aria-expanded="false">Dropdown</Link>
     <ul className="dropdown-menu">
       <li><Link className="dropdown-item" to="/C">C Language</Link></li>
       <li><hr className="dropdown-divider"/></li>

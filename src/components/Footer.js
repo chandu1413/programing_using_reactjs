@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=" bg-light" >
+    <div className=" container-fluid bg-light" >
   <footer className="row row-cols-5 py-5 my-5 border-top">
     <div className="col">
       

@@ -29,32 +29,32 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <br/>
-    <h2>Languages </h2>
-    <div className='card-group '>
-    <Card img={img1}
-          title="c Language"
-          text="C is a general-purpose programming language, developed in 1972, and still quite popular. C is very powerful; it has been used   to develop operating systems, databases, applications, etc."
-        
-         />
-    <Card
+    
+   <div className='bg-info container-fluid'> 
+    <h2 className='head'>Languages </h2>
+    <div className=' container row row-cols-1 row-cols-md-3 g-4 '>
+       <Card img={img1}
+             title="c Language"
+             text="C is a general-purpose programming language, developed in 1972, and still quite popular. C is very powerful; it has been used   to develop operating systems, databases, applications, etc."
+         /> 
+       <Card
           img={img2}
           title="java Language"
           text="Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code runs on most operating systems (OS), including Windows, Linux and Mac OS."
-    />
-    <Card
+         />
+
+        <Card
           img={img3}
           title="python Language"
           text="Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."
-    
-    />
-
+         />
+   
     <Card img={img4}
           title="Java script"
         
           text="JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web. JavaScript is easy to learn."
-         
          />
+       
     <Card
           img={img5}
           title="java Language"
@@ -62,8 +62,7 @@ const Home = () => {
     />
     
     </div>
-    
-    
+    </div>
     </>
   )
 }
