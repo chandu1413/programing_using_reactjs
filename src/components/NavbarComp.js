@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-
+import BasicButton from './Dropdown';
 
 
 
@@ -21,7 +21,7 @@ const Nav = () => {
          <Link className='nav-link text-info' to='/About'>AboutUs</Link> 
         </li>
 
-        <li className="nav-item  dropdown" >
+        {/* <li className="nav-item  dropdown" >
     <Link className="nav-link dropdown-toggle text-info" data-bs-toggle="dropdown" to="/" role="button" aria-expanded="false">Dropdown</Link>
     <ul className="dropdown-menu">
       <li><Link className="dropdown-item" to="/C">C Language</Link></li>
@@ -35,7 +35,10 @@ const Nav = () => {
       <li><Link className="dropdown-item" to="/javascript">Javascript</Link></li>
       <li><hr className="dropdown-divider"/></li>
       <li><Link className="dropdown-item" to="/">Separated link</Link></li>
-    </ul>
+    </ul> 
+  </li>*/}
+  <li>
+    <BasicButton/>
   </li>
     </ul>
     </div>
