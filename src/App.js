@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/cpp" element={<Cpp/>}/>
         <Route path="/java" element={<Java/>}/>
         <Route path="/python" element={<Python/>}/>
-        <Route path="/cpp" element={<Javascript/>}/>
+        <Route path="/javascript" element={<Javascript/>}/>
         
         
         

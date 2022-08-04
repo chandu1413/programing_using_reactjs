@@ -23,9 +23,15 @@ const Nav = () => {
         <li className="nav-item  dropdown" >
     <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="/" role="button" aria-expanded="false">Dropdown</Link>
     <ul className="dropdown-menu">
-      <li><Link className="dropdown-item" to="/C">Action</Link></li>
-      <li><Link className="dropdown-item" to="/">Another action</Link></li>
-      <li><Link className="dropdown-item" to="/">Something else here</Link></li>
+      <li><Link className="dropdown-item" to="/C">C Language</Link></li>
+      <li><hr className="dropdown-divider"/></li>
+      <li><Link className="dropdown-item" to="/java">Java</Link></li>
+      <li><hr className="dropdown-divider"/></li>
+      <li><Link className="dropdown-item" to="/python">Python</Link></li>
+      <li><hr className="dropdown-divider"/></li>
+      <li><Link className="dropdown-item" to="/cpp">C++</Link></li>
+      <li><hr className="dropdown-divider"/></li>
+      <li><Link className="dropdown-item" to="/javascript">Javascript</Link></li>
       <li><hr className="dropdown-divider"/></li>
       <li><Link className="dropdown-item" to="/">Separated link</Link></li>
     </ul>
