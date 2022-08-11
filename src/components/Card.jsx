@@ -7,7 +7,7 @@ import './Card.css';
 const Card =(props)=>{
   return (
     
-    <div className=' col-xl-2.4 col-xxl-2 col-lg-3 col-md-5 col-sm-4'>
+    <div className=' col-xl-2.4 col-xxl-2 col-lg-3 col-md-5 col-sm-4' data-aos="zoom-in">
     <div className="card p-0 overflow-hidden h-100 container-fluid">
     <img className="card-img-top" src={props.img} alt="Card cap"/>
     <div className="card-body">

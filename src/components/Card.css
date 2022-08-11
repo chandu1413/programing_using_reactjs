@@ -25,7 +25,7 @@
     transition: transform 500ms ease;
     
 }
-@media (prefers-reduced-motion: no-preference) {
+@media (max-width: 960px) {
     .card-img-top{
         height:50%;
         width: 100%;

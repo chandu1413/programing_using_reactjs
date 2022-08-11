@@ -1,0 +1,24 @@
+
+p{
+   font-size: medium; 
+   font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    
+}
+*h6{
+    text-align: left;
+    margin-top: 50px;
+   
+}
+.structure{
+    width: 35vw;
+    margin: 20px;
+}
+@media (max-width: 960px) {
+    .structure{
+      height: auto;
+      width: 100%;
+      margin: auto;
+    }
+  }
+

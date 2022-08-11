@@ -9,13 +9,22 @@ import img2 from '../images/java.png';
 import img3 from '../images/python.jpg';
 import img4 from '../images/js.png';
 import img5 from '../images/c++.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
+
+AOS.init({
+  delay: 20,
+  duration: 500,
+  throttleDelay: 99,
+  animatedClassName: 'aos-animate', 
+});
 
 const Home = () => {
   return (<>
  
     <div className='first bg-secondary'>
-      <div className='row'>
+      <div className='row' >
       <div className="col-lg-6 col-sm-12 col-md-6 col-xl-6">
        <h1 className='h1 text-light' >Learn to Code</h1>
        <br/>
@@ -26,14 +35,18 @@ const Home = () => {
       <br/>
       <div className="col-md-6 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
         <br/>
+        <div className='container-fluid'data-aos="zoom-in-up" >
        <img className='logo'alt="programming logo" src={pogo}/>
+      </div>
       </div>
       </div>
     </div>
     
    <div className='bg-info container-fluid'> 
     <h2 className='head'>Languages </h2>
-    <div className=' container row row-cols-1 row-cols-md-3 g-4 '>
+    <div className=' container row row-cols-1 row-cols-md-3 g-4' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
        <Card img={img1}
              title="c Language"
              text="C is a general-purpose programming language, developed in 1972, and still quite popular. C is very powerful; it has been used   to develop operating systems, databases, applications, etc."
