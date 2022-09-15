@@ -1,20 +1,33 @@
 *{
-  margin: 0;
+margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 .first{
-    
-    padding: 70px;  
+  background-image: url(/src/programming-logo.webp);
+    padding: 90px;  
+}
+.glass{
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); 
 }
 .second{
     max-width:1400px;
 }
-h1{
-    text-align: justify;
+.sh1{
+   text-align: center;
+   margin: 30px;
    
     font-weight: bold;
 }
+.sh4{
+  text-align: center;
+  margin: 30px;
+  font-size: medium;
+  
+}
+
 .container-fluid {
   overflow: hidden;
   max-width: 100%;
@@ -28,7 +41,7 @@ h1{
   flex-wrap: wrap;
   justify-content: center;
   display: flex;
-  
+
 }
 .crow {
   display: flex;
@@ -44,11 +57,20 @@ h1{
       height: auto;
       width: 100%;
     }
+    
   }
   
 .head{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin: 70px;
+    margin: 50px;
   }
+ 
+.intro{
+  text-align: center;
+  margin: 30px;
+}
+h2{
+  margin: 50px;
+}

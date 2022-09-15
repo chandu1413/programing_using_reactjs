@@ -13,7 +13,7 @@ const Card =(props)=>{
     <div className="card-body">
       <h5 className="card-title">{props.title}</h5>
       <p className="card-text">{props.text}</p>
-      <Link className='btn btn-primary' to='/About'>AboutUs</Link> 
+      <Link className='btn btn-primary' to='/About'>Learn more</Link> 
       
     </div>
   </div> 

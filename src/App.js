@@ -29,9 +29,6 @@ export default function App() {
         <Route path="/java" element={<Java/>}/>
         <Route path="/python" element={<Python/>}/>
         <Route path="/javascript" element={<Javascript/>}/>
-        
-        
-        
       </Routes>
     <Footer/>
     </BrowserRouter>

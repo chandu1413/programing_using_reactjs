@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import "./Cpp.css";
 const Cpp = () => {
   return (
     <div>
-      hi
+      <h1>hi</h1>
     </div>
   )
 }
