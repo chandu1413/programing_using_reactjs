@@ -1,0 +1,21 @@
+.ph3 {
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-style: dotted;
+    border-radius: 100px;
+    padding: 10px;
+    text-decoration: wavy;
+    text-shadow: 20px black;
+}
+h4{
+    text-decoration: underline;
+    margin: 30px;
+
+}
+p{
+    text-align: justify;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

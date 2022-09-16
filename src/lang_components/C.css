@@ -1,15 +1,17 @@
-
+/* .c{
+  margin: 10px;
+} */
 p{
    font-size: medium; 
    font-family: 'Roboto Slab', serif;
     text-align: justify;
+    margin: 30px;
     
 }
-*h6{
-    text-align: left;
-    margin-top: 50px;
-   
+.list {
+  margin-left: 40px;
 }
+
 .structure{
     width: 35vw;
     margin: 20px;
@@ -22,3 +24,18 @@ p{
     }
   }
 
+.table{
+  border: 2px solid black;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.spam{
+  margin-top: 2rem;
+  margin-right: 40px;
+  margin-left: 4rem;
+  border: 1px solid black;
+  box-sizing: content-box;
+  padding: 30px;
+}
