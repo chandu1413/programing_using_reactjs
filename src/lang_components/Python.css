@@ -1,0 +1,11 @@
+.pyimg{
+    height: 60vh;
+    width: 100%;
+}
+@media (max-width: 999px) {
+    .pyimg{
+      height: auto;
+      width: 100%;
+      margin: auto;
+    }
+  }

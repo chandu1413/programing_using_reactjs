@@ -14,7 +14,8 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavLink  to="/" className='nav-link' id="RouterNavLink">Home</NavLink>
-            <NavLink  to='/About'className='nav-link ' id="RouterNavLink">AboutUs </NavLink>
+            <NavLink  to='/Aboutus'className='nav-link ' id="RouterNavLink">AboutUs </NavLink>
+            <NavLink  to='/Contactus' className='nav-link ' id="RouterNavLink">ContactUS</NavLink>
             <NavDropdown title="lang" id="basic-nav-dropdown">
               <NavDropdown.Item  ><Link className='nav-link text-dark '  to='/c'>C lang </Link></NavDropdown.Item>
               <NavDropdown.Item >

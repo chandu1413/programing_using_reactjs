@@ -3,10 +3,16 @@
     height: auto;
    
 }
-@media (max-width: 980px) {
+.jamesimg {
+  position: relative;
+  margin-left: 60px;
+  
+}
+@media (max-width: 999px) {
     .javaimg{
       height: auto;
       width: 100%;
     }
+    
     
   }

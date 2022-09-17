@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const About = () => {
+const ContactUS = () => {
   return (
     <>
     <title>C Language</title>
@@ -15,4 +15,4 @@ const About = () => {
   )
 }
 
-export default About
+export default ContactUS

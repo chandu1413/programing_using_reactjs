@@ -95,14 +95,14 @@ box-sizing: border-box;
 
 .shadowBtn {
   width: 120px;
-  height: 60px;
+  height: 50px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: transparent;
   color: black;
   cursor: pointer;
   position: relative;
-
+  
 }
 .shadowBtn:hover{
   background-color:white;
@@ -123,7 +123,7 @@ box-sizing: border-box;
 
 }
 .shadowBtn:hover::before{
-  background:white;
+  background: blue;
   top: 70px;
 }
 
