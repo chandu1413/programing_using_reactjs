@@ -77,9 +77,8 @@ const C = () => {
         </tr>
         </thead>
         <tbody>
-
-          <tr   >
-            <td   > Algol</td>
+          <tr>
+            <td> Algol</td>
             <td> 1960</td>
             <td>International Group</td>
           </tr>

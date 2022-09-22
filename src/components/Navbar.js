@@ -17,11 +17,11 @@ function NavBar() {
             <NavLink  to='/Aboutus'className='nav-link ' id="RouterNavLink">AboutUs </NavLink>
             <NavLink  to='/Contactus' className='nav-link ' id="RouterNavLink">ContactUS</NavLink>
             <NavDropdown title="Languages" id="basic-nav-dropdown">
-              <NavDropdown.Item  ><Link className='nav-link text-dark '  to='/c'>C lang </Link></NavDropdown.Item><NavDropdown.Item >
-              <Link className='nav-link text-dark '  to='/Java'>Java lang</Link> </NavDropdown.Item>
-              <NavDropdown.Item ><Link className='nav-link text-dark '  to='/Python'>Python lang </Link> </NavDropdown.Item>
-              <NavDropdown.Item  ><Link className='nav-link text-dark '  to="/javascript" >JavaScript </Link></NavDropdown.Item>
-              <NavDropdown.Item  ><Link className='nav-link text-dark '  to='/cpp'>C++ </Link></NavDropdown.Item>
+              <NavDropdown.Item  ><Link className='nav-link text-dark '  to='/c'>C Language </Link></NavDropdown.Item><NavDropdown.Item >
+              <Link className='nav-link text-dark '  to='/Java'>Java Language</Link> </NavDropdown.Item>
+              <NavDropdown.Item ><Link className='nav-link text-dark '  to='/Python'>Python Language </Link> </NavDropdown.Item>
+              <NavDropdown.Item  ><Link className='nav-link text-dark '  to="/javascript" >JavaScript Language</Link></NavDropdown.Item>
+              <NavDropdown.Item  ><Link className='nav-link text-dark '  to='/cpp'>C++ Language</Link></NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

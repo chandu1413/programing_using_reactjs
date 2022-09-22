@@ -1,52 +1,29 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
-  const page = ["Home","AboutUs","C Lang","Java","python","C++"]
+
   return (
-    <div className=" container-fluid bg-light" >
-  <footer className="row row-cols-5 py-5 my-5 border-top">
+    <div className=" container-fluid bg-dark" >
+  <footer className="row row-cols-3 py-5 my-0 border-top">
     <div className="col">
-      
       <p className="text-muted">© 2022</p>
     </div>
-
-    <div className="col">
-
+    <div className="col nav-item  mb-2">
+      <h5 className=" text-light">Section</h5>
+      <Link className="nav-link p-2 text-muted" to="/">Home</Link>
+      <Link className="nav-link p-2 text-muted" to="/about">AboutUs</Link>
+      <Link className="nav-link p-2 text-muted" to="/contactus">ContactUs</Link>
+      <Link className="nav-link p-2 text-muted" to="/">Home</Link>
     </div>
-
-    <div className="col">
-      <h5>Section 1</h5>
-      <ul className="nav flex-column">
-      {
-        page.map(
-          (value,index) => <li key={index} className="nav-item  mb-2"><a href="#" className="nav-link p-0 text-muted">{value}</a></li>
-        )
-        }
-      </ul>
+    <div className="col nav-item  mb-5">
+      <h5 className=" text-light">Languages</h5>
+      <Link className="nav-link p-1 text-muted" to="/c">C Language</Link>
+      <Link className="nav-link p-1 text-muted" to="/Java">Java Language</Link>
+      <Link className="nav-link p-1 text-muted" to="/Python">Python Language</Link>
+      <Link className="nav-link p-1 text-muted" to="/javascript">JavaScript Language</Link>
+      <Link className="nav-link p-1 text-muted" to="/cpp">C++ Language</Link>
     </div>
-
-    <div className="col">
-      <h5>Section 1</h5>
-      <ul className="nav flex-column">
-      {
-        page.map(
-          (value,index) => <li key={index} className="nav-item  mb-2"><a href="#" className="nav-link p-0 text-muted">{value}</a></li>
-        )
-        }
-      </ul>
-    </div>
-    <div className="col">
-      <h5>Section</h5>
-      <ul className="nav flex-column">
-        <li className="nav-item  mb-2"><a href="#" className="nav-link p-0 text-muted">Home</a></li>
-        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Features</a></li>
-        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Pricing</a></li>
-        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
-        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About</a></li>
-      </ul>
-    </div>
-    
-
   </footer>
 </div>
   )
