@@ -11,43 +11,59 @@
 }
 
 .card{
-    /* width: 18rem; */
+  
     display: flex;
     overflow: hidden;
-    /* height: 200px; */
-    /* flex-basis: 23%; */
-   /* margin: 10px;
-   margin-left: 20px; */
     box-shadow: 0px 0px 15px 5px;
     border-radius: 3px;
-
     align-items: center;
-    transition: transform 500ms ease;
-    
 }
 @media (max-width: 960px) {
     .card-img-top{
         height:50%;
         width: 100%;
     }
-    .card-text{
-        width: 100%;
-        height: auto;
-    }
-    .card-title{
-        height: auto;
-        width: 100%;
-    }
+   
     .card{
         height: auto;
         width: 100%;
-       
     }
   }
-.card:hover{
-transform: scale(1.1);
-}
+
 .card-text{
-    font-size: 15px;
-    /* padding: 10px; */
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
 }
+.card-title{
+text-decoration: underline;
+margin: 9px;
+}
+
+.Cbtn {
+  width: 120px;
+  margin: 10px;
+  border-radius: 10px;  
+  position: relative;
+}
+.Cbtn:hover{
+  transition: 1s ease; 
+}
+.Cbtn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:50px;
+  background: black;
+  height: 50%;
+  width: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1,0.35);
+  filter: blur(8px);
+  transition: (1s ease);
+
+}
+.Cbtn:hover::before{
+  background:black;
+  top: 70px;
+}
+

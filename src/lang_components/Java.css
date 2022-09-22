@@ -1,0 +1,18 @@
+.javaimg{
+    width: 100%;
+    height: auto;
+   
+}
+.jamesimg {
+  position: relative;
+  margin-left: 60px;
+  
+}
+@media (max-width: 999px) {
+    .javaimg{
+      height: auto;
+      width: 100%;
+    }
+    
+    
+  }

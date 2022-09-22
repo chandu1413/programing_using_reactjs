@@ -1,22 +1,27 @@
 import React from 'react';
-import  {Title,Heading,Subheading} from'./C.Style.js';
-import str from '../images/StructureOfCprogram.png';
+import  {Title,Heading,Subheading,Subheading2,UnderHeading} from'./C.Style.js';
+// import str from "../images/StructureOfCprogram.png"
 import "./C.css";
 const C = () => {
+  const openbrace = "{"
+  const closebrace ='}'
+  const headfile = "#include <stdio.h>"
+
   return (
     <>
    
     <Title>C Language</Title>
-    <div className='container'>
+    <hr/>
+    <div className='c container-fluid'>
     <br/>
     <Heading>C Language Introduction</Heading>
-    <h6>Difficulty Level : Easy</h6>
+    <UnderHeading>Difficulty Level : Easy</UnderHeading>
     <br/>
     <p>C is a procedural programming language. It was initially developed by Dennis Ritchie in the year 1972. It was mainly developed as a system programming language to write an operating system. The main features of the C language include low-level memory access, a simple set of keywords, and a clean style, these features make C language suitable for system programmings like an operating system or compiler development. </p>
     <p>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset of C language (Few programs may compile in C, but not in C++). </p>
      <p>C programming is considered as the base for other programming languages, that is why it is known as mother language.</p>
      <p>It can be defined by the following ways:</p>
-     <ol>
+     <ol className='list'>
       <li>Mother language</li>
       <li>System programming language</li>
       <li>Procedure-oriented programming language</li>
@@ -53,14 +58,77 @@ const C = () => {
 
      </ol>
      
-     
+
+        <Heading>History of C Language</Heading>
+        <p>History of C language is interesting to know. Here we are going to discuss a brief history of the c language.</p>
+        <p>C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A.</p>
+        <p>Dennis Ritchie is known as the founder of the c language.</p>
+        <p>Initially, C language was developed to be used in UNIX operating system. It inherits many features of previous languages such as B and BCPL.</p>
+        <br/>
+       <Subheading2>Let's see the programming languages that were developed before C language.</Subheading2>
+        
+        <div className='container'>
+        <table className='table  table-bordered'>
+          <thead >
+        <tr  >
+          <th scope='col' >Language</th>
+          <th scope='col' >	Year</th>
+          <th scope='col' >Developed By</th>
+        </tr>
+        </thead>
+        <tbody>
+
+          <tr   >
+            <td   > Algol</td>
+            <td> 1960</td>
+            <td>International Group</td>
+          </tr>
+          <tr  >
+            <td>BCPL</td>
+            <td>1967</td>
+            <td>	Martin Richard</td>
+          </tr>
+          <tr >
+            <td>B</td>
+            <td>	1970</td>
+            <td>Ken Thompson</td>
+          </tr>
+          <tr >
+            <td>Traditional C</td>
+            <td>1972</td>
+            <td>Dennis Ritchie</td>
+          </tr>
+          <tr>
+            <td>K & R C</td>
+            <td>1978</td>
+            <td>Kernighan & Dennis Ritchie</td>
+          </tr>
+          <tr >
+            <td>ANSI C</td>
+            <td>1989</td>
+            <td>ANSI Committee</td>
+          </tr>
+          <tr >
+            <td>ANSI/ISO C</td>
+            <td>	1990</td>
+            <td>	ISO Committee</td>
+          </tr>
+          <tr >
+            <td>	C99</td>
+            <td>1999</td>
+            <td>Standardization Committee</td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+      </div>
       <h6>Beginning with C programming:</h6>
       <ol>
         <li>
           <Subheading>Structure of a C program </Subheading>
           <p>After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.</p>
        <p>The structure of a C program is as follows:</p>
-       <img className='structure' src={str} alt='structure'/>
+       <img className='structure' src='images/StructureOfCprogram.png' alt='structure'/>
         </li>
       </ol>
       <ol><li><Subheading>The components of the above structure are:</Subheading></li>
@@ -82,7 +150,42 @@ const C = () => {
               
             </ol>    
       </ol>
+
+      <Subheading2>"Hello, world" example</Subheading2>
+      <hr/>
+      <p>The "hello, world" example, which appeared in the first edition of K&R, has become the model for an introductory program in most programming textbooks. The program prints "hello, world" to the standard output, which is usually a terminal or screen display.</p>
+      <p>To write the first c program, open the C console and write the following code:</p>
+      
+      <div className='col-md-3 spam'>
+      <pre>
+        <span></span>
+        <span>{headfile}</span>
+        <br/>
+        <span >main</span>
+        <span >()</span>
+        <br/>
+       <span ></span>
+       <span ></span>
+       <span ></span>
+       <span >{ openbrace}</span>
+       <br/>
+      <span >  printf</span>
+      <span >(</span>
+      <span >"hello, world</span>
+      <span >\n</span>
+      <span >"</span>
+      <span >);</span>
+      <span ></span>
+      <br/><span >{closebrace}</span>
+      <span ></span>
+      </pre>
       </div>
+      <p><strong>#include &lt;stdio.h&gt;</strong> includes the <strong>standard input output</strong> library functions. The printf() function is defined in stdio.h .</p>
+      <p><strong>int main()</strong> The <strong>main() function is the entry point of every program</strong> in c language. </p>
+      <p><strong>printf()</strong> The printf() function is <strong>used to print data</strong> on the console.</p>
+      <p><strong>return 0</strong> The return 0 statement, returns execution status to the OS. The 0 value is used for successful execution and 1 for unsuccessful execution.</p>
+   
+     
     </>
   )
 }

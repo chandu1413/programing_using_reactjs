@@ -1,20 +1,33 @@
 *{
-  margin: 0;
+margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 .first{
-    
-    padding: 70px;  
+  background-image: url(/src/programming-logo.webp);
+    padding: 90px;  
+}
+.glass{
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); 
 }
 .second{
     max-width:1400px;
 }
-h1{
-    text-align: justify;
+.sh1{
+   text-align: center;
+   margin: 30px;
    
     font-weight: bold;
 }
+.sh4{
+  text-align: center;
+  margin: 30px;
+  font-size: medium;
+  
+}
+
 .container-fluid {
   overflow: hidden;
   max-width: 100%;
@@ -28,7 +41,7 @@ h1{
   flex-wrap: wrap;
   justify-content: center;
   display: flex;
-  
+
 }
 .crow {
   display: flex;
@@ -39,16 +52,78 @@ h1{
     width: 400px;
     border-radius: 2rem;
 }
+.programimg{
+  width: 450px;
+  height: auto;
+ 
+}
 @media (max-width: 960px) {
     .logo{
       height: auto;
       width: 100%;
     }
+    
   }
   
 .head{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin: 70px;
+    margin-top: 50px;
   }
+ 
+.About{
+    text-align: center;
+    background-color: #faebd7  ;
+}
+.About h2{
+  padding-top: 70px;
+  text-align: center;
+}
+.About p{
+  margin: 30px;
+  font-size: medium; 
+   padding-top: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+.shadowBtn {
+  width: 120px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  
+}
+.shadowBtn:hover{
+  background-color:white;
+  color:black;
+  transition: 1s ease; 
+}
+.shadowBtn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:50px;
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1,0.35);
+  filter: blur(8px);
+  transition: (1s ease);
+
+}
+.shadowBtn:hover::before{
+  background: blue;
+  top: 70px;
+}
+
