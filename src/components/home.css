@@ -28,13 +28,21 @@ box-sizing: border-box;
   
 }
 
-.container-fluid {
+.Cardc{
   overflow: hidden;
   max-width: 100%;
   margin: 0 auto;
 
 }
-.container{
+.About {
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #faebd7  ;
+
+}
+.Ccontainer{
   margin: 30px;
   margin-left: 35px;
   padding: 20px;
@@ -72,10 +80,6 @@ box-sizing: border-box;
     margin-top: 50px;
   }
  
-.About{
-    text-align: center;
-    background-color: #faebd7  ;
-}
 .About h2{
   padding-top: 70px;
   text-align: center;

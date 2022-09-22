@@ -1,0 +1,31 @@
+.feedback{
+    align-items: center;
+    margin-left: 40px;
+    max-width: 290px;
+    position: relative;
+}
+.f-heading{
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+}
+.feedback-form{
+    background-color: rgb(150, 150, 150);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    position: relative;
+}
+.open-btn{
+    position: relative;
+    margin: 20px;
+}
+.close-btn{
+    right: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    
+}
+input{
+    border: 1px solid gray;
+}

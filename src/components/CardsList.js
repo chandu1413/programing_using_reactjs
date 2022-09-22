@@ -18,11 +18,11 @@ AOS.init({
 export default function CardsList() {
   return (
     <>
-    <div className='bg-info container-fluid'> 
+    <div className='bg-info Cardc container-fluid'> 
     <h2 className='head'>Languages </h2>
     <hr/>
     <br/>
-    <div className=' container row row-cols-1 row-cols-md-3 g-4' data-aos="fade-right"
+    <div className=' container Ccontainer row row-cols-1 row-cols-md-3 g-4' data-aos="fade-right"
          data-aos-offset="300"
          data-aos-easing="ease-in-sine">
         <Card img={img1}

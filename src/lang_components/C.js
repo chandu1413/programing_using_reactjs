@@ -9,7 +9,7 @@ const C = () => {
 
   return (
     <>
-   
+    <img className='c-img'  src='https://www.geeksforgeeks.org/wp-content/uploads/Clanguage-1024x341.png' alt='c' />
     <Title>C Language</Title>
     <hr/>
     <div className='c container-fluid'>
