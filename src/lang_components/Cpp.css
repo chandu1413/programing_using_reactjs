@@ -2,10 +2,35 @@
     width: 100%;
     height: 50vh;
 }
+.cpp-img-2{
+  width: 100vh;
+}
+.Bjarne-img{
+  width: 40vh;
+  margin: 2rem;
+}
+.Stroustrup-img{
+  width: 45vh;
+  margin: 2rem;
+}
+
 @media (max-width: 999px) {
     .cppimg{
       height: auto;
       width: 100%;
       margin: auto;
+    }
+    .cpp-img-2{
+      width: 100%;
+      height: auto;
+     
+    }
+    .Bjarne-img{
+      width: 100%;
+      height: auto;
+    }
+    .Stroustrup-img{
+      width: 100%;
+      height: auto;
     }
   }

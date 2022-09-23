@@ -1,7 +1,15 @@
 .App {
   text-align: center;
 }
-
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

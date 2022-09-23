@@ -23,7 +23,7 @@ const FeedbackForm = () => {
 	const handellertoogle=()=>{setmodel((value) => !value )}
 
 	return (
-	<div className='container'>
+	<div className='container col-md-4'>
 		<h2 className='f-heading'>Feedback US </h2>
 		<div className='feedback'>
 		

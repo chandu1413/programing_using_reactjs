@@ -1,9 +1,32 @@
-.pyimg{
+.py-img{
     height: 50vh;
     width: 100%;
 }
+.gudioimg {
+  margin: 2rem;
+  border: 1px dotted black;
+  padding: 2px;
+ 
+}
+.heading2{
+  margin-top: 40px;
+}
+.hr{
+  margin-bottom: 26px;
+}
+.heading3{
+  text-align: justify;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.program{
+  border: 1px solid black;
+  padding: 2rem;
+  max-width: 300px;
+}
 @media (max-width: 999px) {
-    .pyimg{
+    .py-img{
       height: auto;
       width: 100%;
       margin: auto;
