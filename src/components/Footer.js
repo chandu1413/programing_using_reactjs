@@ -10,11 +10,10 @@ const Footer = () => {
       <p className="text-muted">© 2022</p>
     </div>
     <div className="col nav-item  mb-2">
-      <h5 className=" text-light">Section</h5>
+      
       <Link className="nav-link p-2 text-muted" to="/">Home</Link>
-      <Link className="nav-link p-2 text-muted" to="/about">AboutUs</Link>
       <Link className="nav-link p-2 text-muted" to="/contactus">ContactUs</Link>
-      <Link className="nav-link p-2 text-muted" to="/">Home</Link>
+      
     </div>
     <div className="col nav-item  mb-5">
       <h5 className=" text-light">Languages</h5>

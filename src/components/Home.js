@@ -1,34 +1,22 @@
 import React from 'react';
 import "./home.css";
-import CardsList from "./CardsList"
-// import ProgramLanguage from './ProgramLanguage'
-// import { Button } from 'react-bootstrap';
-
-
+import CardsList from "./CardsList";
 import { Link } from 'react-router-dom';
 
-// import pimg from '../images/program.png';
-
-
 const Home = (props) => {
-
   return (<>
- 
    <div className='first '>
     <div className='container glass'>
     <div className='container1'>
-       <h1 className='sh1'>Learn to Code</h1>
+       <h1 className='sh1 text-light'>Learn to Code</h1>
        <div className='container2'>
-       <h4 className='sh4'>With the world's largest web developer site.</h4>
-       {/* <div className='container3'> */}
-       <Link style={{margin:'30px',marginLeft:'45%'}} className='btn btn-primary  ' to='/Aboutus'>AboutUs</Link> 
-      {/* </div> */}
+       <h4 className='sh4 '>With the world's largest web developer site.</h4>
       </div>
       </div>
       </div>
     </div>
 
- <div className='About container-fluid'>
+ <div className='About container-fluid'>        
   <h2 >About Programming language</h2>
   <hr/>
     <div className='row'>
@@ -41,19 +29,14 @@ const Home = (props) => {
           <img className='programimg' src='Program.png' alt='img' title='program'/>
       </div>
       </div>
-      
     <p>The description of a programming language is usually split into the two components of syntax (form) and semantics (meaning), which are usually defined by a formal language. Some languages are defined by a specification document (for example, the C programming language is specified by an ISO Standard) while other languages (such as Perl) have a dominant implementation that is treated as a reference. Some languages have both, with the basic language defined by a standard and extensions taken from the dominant implementation being common.</p>
     <p>Programming language theory is a subfield of computer science that deals with the design, implementation, analysis, characterization, and classification of programming languages.</p>
-
      <Link className='btn shadowBtn' to='./language' > Learn More </Link>
      <br>
      </br>
      <br/><br/><br/>
-    
   </div>
-
      <CardsList/>
-
     </>
   )
 }

@@ -18,12 +18,16 @@ box-sizing: border-box;
 .sh1{
    text-align: center;
    margin: 30px;
-   
+   padding-top: 30px;
+   padding-bottom: 10px;
+
     font-weight: bold;
 }
 .sh4{
   text-align: center;
   margin: 30px;
+  padding-bottom: 60px;
+  padding-top: 5px;
   font-size: medium;
   
 }
