@@ -1,6 +1,5 @@
 import React from 'react';
 import  {Title,Heading,Heading2,Subheading,Subheading2,UnderHeading,P} from'./C.Style.js';
-// import str from "../images/StructureOfCprogram.png"
 import "./C.css";
 const C = () => {
   const openbrace = "{"
